@@ -5,7 +5,9 @@ Considered goods are :
 1.	Money
 2.	Fruits
 3.	Gold
+
 Program should ask the user to enter what kind of Zakat he will have to distribute following these rules:
+
 1.	If the Zakat for money, program should read from database the amount of money, then using specific formula calculate Zakat of money.
 (Money value * 2.5%)
 
