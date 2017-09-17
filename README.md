@@ -1,6 +1,7 @@
 # Zakaty
 Mobile application which help Muslims to calculate the value of ZAKAT.
-Considired goods are :
+
+Considered goods are :
 1.	Money
 2.	Fruits
 3.	Gold
