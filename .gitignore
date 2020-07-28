@@ -193,3 +193,5 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 .vscode/settings.json
+.vs/Zakaty/v15/.suo
+.vs/Zakaty/DesignTimeBuild/.dtbcache
