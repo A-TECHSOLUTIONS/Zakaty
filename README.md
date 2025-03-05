@@ -1,9 +1,3 @@
-### Enhanced README for Zakaty
-
-Here is a proposed enhanced version of your README file:
-
----
-
 # Zakaty
 
 Mobile application which helps Muslims calculate the value of ZAKAT.
