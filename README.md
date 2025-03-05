@@ -1,25 +1,46 @@
-# Zakaty
-Mobile application which help Muslims to calculate the value of ZAKAT.
+Zakaty
+Mobile application which helps Muslims calculate the value of ZAKAT.
 
-Considered goods are :
-1.	Money
-2.	Fruits
-3.	Gold
+Features
+Money Zakat Calculation
+Program reads the amount of money from the database.
+Calculates Zakat using the formula: Money value * 2.5%.
+Fruits Zakat Calculation
+Asks the user for the selling price of fruits and expenses.
+Applies the formula: (fruits selling price - expenses) * 2.5%.
+Gold Zakat Calculation
+Asks the user how many grams of gold they have over 85 g.
+If less than 85 g, no Zakat.
+If more than 85 g, uses the formula: Gold Zakat = (amount of gold in g * amount of 1 g * 2.5) considering 1 g gold worth 10 KD.
+Getting Started
+Prerequisites
+.NET Framework
+Java Development Kit (JDK)
+Installation
+Clone the repository:
 
-Program should ask the user to enter what kind of Zakat he will have to distribute following these rules:
+sh
+git clone https://github.com/A-TECHSOLUTIONS/Zakaty.git
+cd Zakaty
+Set up the database:
 
-1.	If the Zakat for money, program should read from database the amount of money, then using specific formula calculate Zakat of money.
-(Money value * 2.5%)
+Ensure your database is configured and running.
+Update the connection strings in the configuration files as necessary.
+Build the project:
 
-2.	If zakat is fruits program should ask the user 2 questions: 
-a-	What is the selling price of fruits he has? 
-b-	What is his expenses?
-Then apply this formula: 
-Fruits Zakat = (fruits selling price – expenses) * 2.5%
+For C# components: Open the solution in Visual Studio and build.
+For Java components: Use your preferred IDE to build the Java code.
+Usage
+Run the application and follow the prompts to calculate Zakat for money, fruits, or gold.
+Contributing
+Fork the repository.
+Create your feature branch (git checkout -b feature/AmazingFeature).
+Commit your changes (git commit -m 'Add some AmazingFeature').
+Push to the branch (git push origin feature/AmazingFeature).
+Open a pull request.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-3.	If Zakat is gold user should ask:
-a)	How many grams he has over 85 g?
-b)	If less than 85 g, then no Zakat
-c)	If more than 85 g then use this formula:
-Gold Zakat =( amount of gold in g * amount of 1 g * 2.5)
-Consider 1 g gold worth 10 KD
+Contact
+Repository Owner: A-TECHSOLUTIONS
+Homepage: atechdz.com
