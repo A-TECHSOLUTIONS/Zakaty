@@ -348,6 +348,36 @@ flutter pub get && flutter run
 
 ---
 
+## 📋 Creating GitHub Issues
+
+All 39 plan issues can be created automatically with the [GitHub CLI](https://cli.github.com).
+
+### macOS / Linux / WSL
+
+```sh
+gh auth login          # one-time setup
+bash scripts/create-issues.sh
+```
+
+### Windows (PowerShell / pwsh)
+
+```powershell
+# Install GitHub CLI if not already present
+winget install GitHub.cli
+
+gh auth login          # one-time setup
+
+# Run from the repository root
+pwsh -ExecutionPolicy Bypass -File scripts\create-issues.ps1
+# or, from inside a PowerShell session:
+Set-ExecutionPolicy -Scope Process Bypass
+.\scripts\create-issues.ps1
+```
+
+Both scripts are equivalent — they create the same 39 issues with identical labels across all 6 phases.
+
+---
+
 ## 🤝 Contributing
 
 1. Fork the repository
